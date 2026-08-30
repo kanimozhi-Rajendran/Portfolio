@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14081b" />
+      <stop offset="50%" stop-color="#210d2c" />
+      <stop offset="100%" stop-color="#0f0514" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)" />
+  <circle cx="650" cy="90" r="160" fill="#a855f7" opacity="0.08"/>
+  <circle cx="120" cy="350" r="140" fill="#f43f5e" opacity="0.07"/>
+  
+  <!-- School UI Mockup -->
+  <g transform="translate(140, 60)">
+    <rect width="520" height="330" rx="16" fill="#1d1126" stroke="rgba(244,63,94,0.25)" stroke-width="1.5"/>
+    <rect width="520" height="45" rx="16" fill="#281436"/>
+    <circle cx="25" cy="22" r="6" fill="#f43f5e"/>
+    <circle cx="45" cy="22" r="6" fill="#fb7185" opacity="0.6"/>
+    <circle cx="65" cy="22" r="6" fill="#c084fc" opacity="0.6"/>
+    <text x="260" y="28" fill="#f1f5f9" font-size="13" font-family="'Outfit', sans-serif" font-weight="600" text-anchor="middle">Smart School Management Platform</text>
+    
+    <!-- Sidebar & Main -->
+    <rect x="20" y="65" width="120" height="245" rx="10" fill="#14091c"/>
+    <rect x="30" y="80" width="100" height="25" rx="6" fill="#3b1642"/>
+    <text x="40" y="96" fill="#f43f5e" font-size="10" font-family="sans-serif" font-weight="bold">Admin Portal</text>
+    <rect x="30" y="115" width="100" height="25" rx="6" fill="#1c0e24"/>
+    <text x="40" y="131" fill="#94a3b8" font-size="10" font-family="sans-serif">Teacher View</text>
+    <rect x="30" y="150" width="100" height="25" rx="6" fill="#1c0e24"/>
+    <text x="40" y="166" fill="#94a3b8" font-size="10" font-family="sans-serif">Student View</text>
+    
+    <!-- Content Cards -->
+    <rect x="155" y="65" width="165" height="75" rx="10" fill="#150a1d" stroke="rgba(255,255,255,0.05)"/>
+    <text x="170" y="90" fill="#94a3b8" font-size="11" font-family="sans-serif">ATTENDANCE RATE</text>
+    <text x="170" y="122" fill="#ffffff" font-size="22" font-family="sans-serif" font-weight="bold">96.4%</text>
+    
+    <rect x="335" y="65" width="165" height="75" rx="10" fill="#150a1d" stroke="rgba(255,255,255,0.05)"/>
+    <text x="350" y="90" fill="#94a3b8" font-size="11" font-family="sans-serif">STUDENTS ENROLLED</text>
+    <text x="350" y="122" fill="#f43f5e" font-size="22" font-family="sans-serif" font-weight="bold">1,240</text>
+    
+    <!-- Table Mock -->
+    <rect x="155" y="155" width="345" height="155" rx="10" fill="#14091b" stroke="rgba(255,255,255,0.05)"/>
+    <text x="170" y="180" fill="#f1f5f9" font-size="12" font-family="sans-serif" font-weight="600">Recent Grade & Attendance Records</text>
+    <rect x="170" y="195" width="315" height="30" rx="6" fill="#1e1026"/>
+    <text x="180" y="215" fill="#e2e8f0" font-size="11" font-family="sans-serif">KIT28ADB072 • Math & ML (98/100) • Grade A+</text>
+    <rect x="170" y="235" width="315" height="30" rx="6" fill="#190c21"/>
+    <text x="180" y="255" fill="#cbd5e1" font-size="11" font-family="sans-serif">KIT28ADB085 • Database Systems (92/100) • Grade A</text>
+    <rect x="170" y="275" width="315" height="25" rx="6" fill="#190c21"/>
+    <text x="180" y="292" fill="#94a3b8" font-size="11" font-family="sans-serif">Auto-Calculated CGPA Verified</text>
+  </g>
+</svg>

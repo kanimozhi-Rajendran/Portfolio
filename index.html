@@ -4,386 +4,472 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kanimozhi R | AI & Data Science Student</title>
+    <title>Kanimozhi R. | AI & Data Science Student | Data Analyst | Full-Stack Developer</title>
     <meta name="description"
-        content="Portfolio of Kanimozhi R, an AI & Data Science student building intelligent applications.">
+        content="Portfolio of Kanimozhi R., an Artificial Intelligence and Data Science student building data-driven, AI, and full-stack applications.">
+    <meta name="keywords"
+        content="Kanimozhi R, AI, Data Science, Machine Learning, Data Analyst, Full-Stack Developer, Portfolio, KIT Coimbatore, React, Python">
+    <meta name="author" content="Kanimozhi R.">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Kanimozhi R. | AI & Data Science Student | Data Analyst | Full-Stack Developer">
+    <meta property="og:description"
+        content="Portfolio of Kanimozhi R., an Artificial Intelligence and Data Science student building data-driven, AI, and full-stack applications.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/projects/government-scheme-advisor.png">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Custom+Font:wght@400;700&family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
-    <!-- Font Awesome -->
+
+    <!-- Font Awesome 6 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- CSS -->
+
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class="header">
+    <!-- Navigation Bar -->
+    <header class="header" id="header">
         <div class="container nav-container">
-            <a href="#" class="logo">Kanimozhi R<span class="dot">.</span></a>
-            <nav class="nav">
+            <a href="#hero" class="logo" aria-label="Kanimozhi R. Home">
+                <span class="logo-badge">K</span>
+                <span>Kanimozhi R<span class="dot">.</span></span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
                 <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
                     <li><a href="#about" class="nav-link">About</a></li>
-                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
                     <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#certifications" class="nav-link">Certifications &amp; Badges</a></li>
                     <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
+                <div class="nav-cta">
+                    <a href="assets/Kanimozhi_R_Resume.pdf" target="_blank" class="btn btn-primary btn-sm resume-link-btn">
+                        <i class="fa-solid fa-download"></i> Resume
+                    </a>
+                </div>
             </nav>
-            <div class="mobile-menu-btn">
+
+            <button class="mobile-menu-btn" aria-label="Toggle mobile menu" aria-expanded="false">
                 <i class="fa-solid fa-bars"></i>
-            </div>
+            </button>
         </div>
     </header>
 
     <main>
-        <!-- Hero Section -->
+        <!-- 1. Hero Section -->
         <section id="hero" class="hero section">
             <div class="container hero-container">
                 <div class="hero-content">
-                    <p class="hero-subtitle">Hi, I'm Kanimozhi R</p>
-                    <h1 class="hero-title">AI & Data Science <span class="gradient-text">Student</span></h1>
-                    <p class="hero-description">Building Intelligent & Useful Applications. Passionate about solving
-                        complex problems with code and data.</p>
-                    <div class="hero-btns">
-                        <a href="#projects" class="btn btn-primary">View My Work</a>
-                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    <div class="hero-badge">
+                        <span class="status-dot"></span>
+                        <span>Available for AI, Data & Dev Opportunities</span>
+                    </div>
+                    <div class="hero-greeting">Hi there, I'm <strong>Kanimozhi R.</strong></div>
+                    <h1 class="hero-title" id="hero-title">
+                        AI & Data Science <span class="gradient-text">Student</span> | Data Analyst | Full-Stack Developer
+                    </h1>
+                    <p class="hero-description" id="hero-description">
+                        I build data-driven applications, intelligent solutions, and full-stack products that solve real-world problems.
+                    </p>
+                    
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fa-solid fa-layer-group"></i> View Projects
+                        </a>
+                        <a href="assets/Kanimozhi_R_Resume.pdf" target="_blank" class="btn btn-secondary resume-link-btn">
+                            <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fa-regular fa-paper-plane"></i> Let's Connect
+                        </a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <span class="hero-socials-label">Connect:</span>
+                        <a href="https://github.com/kanimozhi-Rajendran" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="GitHub Profile">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/kanimozhi-r-86267437b/" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="LinkedIn Profile">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:kani74608@gmail.com" class="social-icon-link" aria-label="Email Me">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
                     </div>
                 </div>
+
+                <!-- Hero Visual Showcase -->
                 <div class="hero-visual">
-                    <!-- Abstract CSS visual for "AI" abstract node feeling -->
-                    <div class="glowing-orb"></div>
-                    <div class="glowing-orb orb-2"></div>
-                    <div class="glass-card float-card">
-                        <i class="fa-solid fa-code"></i>
-                        <span>Clean Code</span>
-                    </div>
-                    <div class="glass-card float-card card-2">
+                    <div class="floating-badge badge-top-left">
                         <i class="fa-solid fa-brain"></i>
-                        <span>Machine Learning</span>
+                        <span>Machine Learning & AI</span>
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- About Section -->
-        <section id="about" class="about section">
-            <div class="container">
-                <h2 class="section-title">About Me</h2>
-                <div class="about-content">
-                    <div class="about-text">
-                        <p>I’m an AI & Data Science student with a deep passion for building smart solutions. My journey
-                            involves exploring the depths of machine learning, data analysis, and full-stack
-                            development.</p>
-                        <p>I love problem-solving and writing clean, efficient code. When I'm not studying algorithms or
-                            training models, I'm building web applications that solve real-world problems.</p>
-                        <div class="about-stats">
-                            <div class="stat-item">
-                                <span class="stat-number">3+</span>
-                                <span class="stat-label">Projects Built</span>
-                            </div>
-                            <div class="stat-item">
-                                <span class="stat-number">AI</span>
-                                <span class="stat-label">Specialization</span>
-                            </div>
-                        </div>
+                    <div class="floating-badge badge-bottom-right">
+                        <i class="fa-solid fa-chart-pie"></i>
+                        <span>Data Analytics</span>
                     </div>
-                </div>
-            </div>
-        </section>
 
-        <!-- Projects Section -->
-        <section id="projects" class="projects section">
-            <div class="container">
-                <h2 class="section-title">Featured Projects</h2>
-                <div class="projects-grid">
-                    <!-- Project 1 -->
-                    <article class="project-card">
-                        <div class="project-image">
-                            <!-- Placeholder gradient for project image -->
-                            <div class="img-placeholder p1"></div>
-                        </div>
-                        <div class="project-info">
-                            <h3 class="project-title">Todo App</h3>
-                            <p class="project-desc">A task tracking app with clean UI, local storage features, and
-                                mobile responsiveness. Keeps your daily tasks organized.</p>
-                            <div class="project-tags">
-                                <span>HTML/CSS</span>
-                                <span>JavaScript</span>
-                                <span>Local Storage</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="http://localhost:5174/" target="_blank" class="link-item"><i
-                                        class="fa-solid fa-up-right-from-square"></i> Live Demo</a>
-                                <a href="https://github.com/kanimozhi-Rajendran/TodoApp" target="_blank"
-                                    class="link-item"><i class="fa-brands fa-github"></i>
-                                    GitHub</a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <!-- Project 3 -->
-                    <article class="project-card">
-                        <div class="project-image">
-                            <div class="img-placeholder p3"></div>
-                        </div>
-                        <div class="project-info">
-                            <h3 class="project-title">Healthcare Management System</h3>
-                            <p class="project-desc">A data-driven system analyzing health inputs and generating
-                                diet/exercise recommendations based on user data.</p>
-                            <div class="project-tags">
-                                <span>Data Science</span>
-                                <span>Analytics</span>
-                                <span>Health</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="http://localhost:5175/" target="_blank" class="link-item"><i
-                                        class="fa-solid fa-up-right-from-square"></i> Live Demo</a>
-                                <a href="https://github.com/kanimozhi-Rajendran/Healthcare-Management-System"
-                                    target="_blank" class="link-item"><i class="fa-brands fa-github"></i>
-                                    GitHub</a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <!-- Student Task Manager -->
-                    <article class="project-card">
-                        <div class="project-image">
-                            <div class="img-placeholder p2"></div>
-                        </div>
-                        <div class="project-info">
-                            <h3 class="project-title">Student Task Manager</h3>
-                            <p class="project-desc">A web application that helps students manage tasks with deadlines,
-                                priorities, and progress tracking. Designed for productivity and easy task organization.
-                            </p>
-                            <div class="project-tags">
-                                <span>HTML/CSS</span>
-                                <span>JavaScript</span>
-                                <span>Productivity</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#" target="_blank" class="link-item"><i
-                                        class="fa-solid fa-up-right-from-square"></i> Live Demo</a>
-                                <a href="#" target="_blank" class="link-item"><i class="fa-brands fa-github"></i>
-                                    GitHub</a>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <!-- Skills Section -->
-        <section id="skills" class="skills section">
-            <div class="container">
-                <h2 class="section-title">Technical Skills</h2>
-                <div class="skills-grid">
-                    <div class="skill-item"><i class="fa-brands fa-python"></i> <span>Python</span></div>
-                    <div class="skill-item"><i class="fa-solid fa-brain"></i> <span>Machine Learning</span></div>
-                    <div class="skill-item"><i class="fa-solid fa-chart-line"></i> <span>Data Analysis</span></div>
-                    <div class="skill-item"><i class="fa-brands fa-html5"></i> <span>HTML & CSS</span></div>
-                    <div class="skill-item"><i class="fa-brands fa-js"></i> <span>JavaScript</span></div>
-                    <div class="skill-item"><i class="fa-solid fa-database"></i> <span>SQL</span></div>
-                    <div class="skill-item"><i class="fa-brands fa-git-alt"></i> <span>Git & GitHub</span></div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Coding Profiles Section -->
-        <section id="coding-profiles" class="coding-profiles section">
-            <div class="container">
-                <h2 class="section-title">Coding Profiles</h2>
-                <div class="profiles-grid">
-                    <!-- Codolio -->
-                    <div class="profile-card">
-                        <div class="profile-icon">
+                    <div class="hero-visual-card">
+                        <div class="hero-profile-avatar">
                             <i class="fa-solid fa-code"></i>
                         </div>
-                        <div class="profile-info">
-                            <h3>Codolio</h3>
-                            <p class="username">@kani</p>
-                            <a href="https://codolio.com/profile/Kanimozhi%20R" target="_blank"
-                                class="btn btn-sm btn-outline">View Profile</a>
+                        <div class="hero-card-meta">
+                            <h3>Kanimozhi R.</h3>
+                            <p>B.Tech AI & Data Science • KIT Coimbatore</p>
                         </div>
-                    </div>
-                    <!-- LeetCode -->
-                    <div class="profile-card">
-                        <div class="profile-icon">
-                            <i class="fa-solid fa-code-branch"></i>
-                        </div>
-                        <div class="profile-info">
-                            <h3>LeetCode</h3>
-                            <p class="username">@kani</p>
-                            <a href="https://leetcode.com/u/kit28adb072/" target="_blank"
-                                class="btn btn-sm btn-outline">View Profile</a>
-                        </div>
-                    </div>
-                    <!-- CodeChef -->
-                    <div class="profile-card">
-                        <div class="profile-icon">
-                            <i class="fa-solid fa-laptop-code"></i>
-                        </div>
-                        <div class="profile-info">
-                            <h3>CodeChef</h3>
-                            <p class="username">@kani</p>
-                            <a href="https://www.codechef.com/users/kit28adb072" target="_blank"
-                                class="btn btn-sm btn-outline">View Profile</a>
-                        </div>
-                    </div>
-                    <!-- Codeforces -->
-                    <div class="profile-card">
-                        <div class="profile-icon">
-                            <i class="fa-solid fa-chart-simple"></i>
-                        </div>
-                        <div class="profile-info">
-                            <h3>Codeforces</h3>
-                            <p class="username">@kani</p>
-                            <a href="https://codeforces.com/profile/Kanimozhi_2007" target="_blank"
-                                class="btn btn-sm btn-outline">View Profile</a>
-                        </div>
-                    </div>
-                    <!-- AtCoder -->
-                    <div class="profile-card">
-                        <div class="profile-icon">
-                            <i class="fa-solid fa-terminal"></i>
-                        </div>
-                        <div class="profile-info">
-                            <h3>AtCoder</h3>
-                            <p class="username">@kani</p>
-                            <a href="https://atcoder.jp/users/KANIMOZHI" target="_blank"
-                                class="btn btn-sm btn-outline">View Profile</a>
+                        <div class="hero-card-stats">
+                            <div class="hero-stat">
+                                <div class="hero-stat-val">8.88</div>
+                                <div class="hero-stat-lbl">CGPA</div>
+                            </div>
+                            <div class="hero-stat">
+                                <div class="hero-stat-val">6+</div>
+                                <div class="hero-stat-lbl">Key Projects</div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Achievements Section -->
-        <section id="achievements" class="achievements section">
+        <!-- 2. About Me Section -->
+        <section id="about" class="section">
             <div class="container">
-                <h2 class="section-title">Achievements</h2>
-                <div class="achievements-timeline">
-                    <!-- Academic Star Award (New) -->
-                    <div class="achievement-item">
-                        <div class="achievement-icon">
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <div class="achievement-content">
-                            <h3>Academic Star Award</h3>
-                            <p>Recognized for outstanding academic performance and excellence in AI & Data Science
-                                coursework.</p>
-                        </div>
-                    </div>
-                    <div class="achievement-item">
-                        <div class="achievement-icon">
-                            <i class="fa-solid fa-trophy"></i>
-                        </div>
-                        <div class="achievement-content">
-                            <h3>Problem Solving</h3>
-                            <p>Solved 1500+ coding problems across various competitive platforms.</p>
-                        </div>
-                    </div>
-                    <div class="achievement-item">
-                        <div class="achievement-icon">
-                            <i class="fa-solid fa-layer-group"></i>
-                        </div>
-                        <div class="achievement-content">
-                            <h3>Full-Stack & AI</h3>
-                            <p>Built multiple full-stack and AI-based projects solving real-world challenges.</p>
+                <div class="section-header">
+                    <span class="section-subtitle">Background</span>
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-desc">Bridging modern software engineering and intelligent data solutions.</p>
+                </div>
+
+                <div class="about-layout">
+                    <!-- Photo Column (Left, ~38% on desktop) -->
+                    <div class="about-photo-col fade-left-init">
+                        <div class="about-photo-card">
+                            <div class="about-photo-glow" aria-hidden="true"></div>
+                            <div class="about-photo-frame">
+                                <div class="about-photo-img-wrapper">
+                                    <img src="assets/profile-photo.jpg" 
+                                         alt="Kanimozhi R - Profile Photo" 
+                                         class="about-profile-img" 
+                                         id="about-profile-photo"
+                                         loading="lazy"
+                                         onerror="if(!this.dataset.fallbackTried){this.dataset.fallbackTried='true';this.src='assets/profile-photo-original.jpg';}" />
+                                </div>
+                                <div class="about-photo-badge">
+                                    <span class="about-badge-dot"></span>
+                                    <span>AI &amp; Data Science</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="achievement-item">
-                        <div class="achievement-icon">
-                            <i class="fa-solid fa-diagram-project"></i>
-                        </div>
-                        <div class="achievement-content">
-                            <h3>DSA Mastery</h3>
-                            <p>Strong understanding and application of Data Structures & Algorithms.</p>
-                        </div>
-                    </div>
-                    <div class="achievement-item">
-                        <div class="achievement-icon">
-                            <i class="fa-solid fa-code"></i>
-                        </div>
-                        <div class="achievement-content">
-                            <h3>Competitive Programming</h3>
-                            <p>Active competitive programmer participating in weekly contests.</p>
-                        </div>
-                    </div>
-                    <div class="achievement-item">
-                        <div class="achievement-icon">
-                            <i class="fa-solid fa-award"></i>
-                        </div>
-                        <div class="achievement-content">
-                            <h3>Contests</h3>
-                            <p>Participated in various coding contests and hackathons.</p>
+
+                    <!-- Details Column (Right, ~62% on desktop) -->
+                    <div class="about-details-col fade-right-init">
+                        <div class="about-card">
+                            <div class="about-text" id="about-text-container">
+                                <p>
+                                    I am a B.Tech Artificial Intelligence and Data Science student at Kalaignarkarunanidhi Institute of Technology, Coimbatore. I am passionate about engineering intelligent solutions that bridge data science and scalable full-stack development.
+                                </p>
+                                <p>
+                                    My core interests encompass Data Analytics, Machine Learning, Artificial Intelligence, Database Management, and Full-Stack Development. I focus on building robust, end-to-end software solutions that solve real-world challenges with clean, efficient code.
+                                </p>
+                            </div>
+
+                            <div class="about-interests-box">
+                                <h4><i class="fa-solid fa-compass"></i> Core Focus Areas</h4>
+                                <div class="interests-grid">
+                                    <div class="interest-item"><i class="fa-solid fa-chart-line"></i> Data Analytics</div>
+                                    <div class="interest-item"><i class="fa-solid fa-brain"></i> Machine Learning</div>
+                                    <div class="interest-item"><i class="fa-solid fa-microchip"></i> Artificial Intelligence</div>
+                                    <div class="interest-item"><i class="fa-solid fa-laptop-code"></i> Full-Stack Development</div>
+                                    <div class="interest-item"><i class="fa-solid fa-database"></i> Database Management</div>
+                                    <div class="interest-item"><i class="fa-solid fa-cubes"></i> Real-World Solutions</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Contact Section -->
-        <section id="contact" class="contact section">
+        <!-- 3 & 4. Education & Experience Sections -->
+        <section id="education" class="section">
             <div class="container">
-                <div class="contact-wrapper">
-                    <div class="contact-info">
-                        <h2 class="section-title">Get In Touch</h2>
-                        <p>Interested in collaborating or have a question? Feel free to reach out using the form or via
-                            email.</p>
-                        <div class="contact-details">
-                            <div class="contact-detail-item">
-                                <i class="fa-solid fa-envelope"></i>
-                                <span>kani74608@gmail.com</span>
-                            </div>
-                            <div class="social-links">
-                                <a href="https://github.com/kanimozhi-Rajendran" class="social-btn"><i
-                                        class="fa-brands fa-github"></i></a>
-                                <a href="https://www.linkedin.com/in/kanimozhi-r-86267437b/" class="social-btn"><i
-                                        class="fa-brands fa-linkedin-in"></i></a>
-                            </div>
+                <div class="timeline-grid">
+                    <!-- Education Column -->
+                    <div class="timeline-column" id="education-column">
+                        <div class="section-header" style="text-align: left; margin-bottom: 30px;">
+                            <span class="section-subtitle">Academics</span>
+                            <h2 class="section-title" style="font-size: 2rem;">Education</h2>
                         </div>
-                        <a href="KANIMOZHI R (1).pdf" class="btn btn-outline download-cv"><i
-                                class="fa-solid fa-download"></i> Download
-                            Resume</a>
+                        <div class="timeline-cards-list" id="education-list">
+                            <!-- Populated dynamically from data.js -->
+                        </div>
                     </div>
-                    <div id="form-message" class="form-message"></div>
-                    <form class="contact-form" name="contact" method="POST" data-netlify="true"
-                        netlify-honeypot="bot-field" action="/">
-                        <input type="hidden" name="form-name" value="contact">
-                        <p class="hidden" style="display: none;">
-                            <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+
+                    <!-- Experience Column -->
+                    <div class="timeline-column" id="experience">
+                        <div class="section-header" style="text-align: left; margin-bottom: 30px;">
+                            <span class="section-subtitle">Career Journey</span>
+                            <h2 class="section-title" style="font-size: 2rem;">Experience & Internships</h2>
+                        </div>
+                        <div class="timeline-cards-list" id="experience-list">
+                            <!-- Populated dynamically from data.js -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Technical Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Technical Expertise</span>
+                    <h2 class="section-title">Skills & Technologies</h2>
+                    <p class="section-desc">Categorized technical competencies and practical toolsets.</p>
+                </div>
+
+                <div class="skills-container-grid" id="skills-grid-container">
+                    <!-- Populated dynamically from data.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 6 & 7. Featured & Additional Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Portfolio</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-desc">Intelligent AI applications, data-driven platforms, and full-stack software.</p>
+                </div>
+
+                <!-- Projects Filter Bar -->
+                <div class="projects-filter-bar">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="featured">Featured Projects</button>
+                    <button class="filter-btn" data-filter="additional">Additional Projects</button>
+                </div>
+
+                <div class="projects-grid" id="projects-grid-container">
+                    <!-- Populated dynamically from data.js with ProjectMedia fallbacks -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. Certifications & Badges Section -->
+        <section id="certifications" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Credentials &amp; Recognition</span>
+                    <h2 class="section-title">Certifications &amp; Badges</h2>
+                    <p class="section-desc">Flagship credentials, verified skill badges, and problem solving milestones.</p>
+                </div>
+
+                <!-- Featured Certifications Tier (Top Row, 3 Highlighted Cards) -->
+                <div class="certs-tier-block featured-tier-block">
+                    <div class="certs-tier-header">
+                        <div class="tier-badge-label featured-label">
+                            <i class="fa-solid fa-crown"></i> Featured Certifications
+                        </div>
+                        <span class="tier-subtitle">High-impact specializations &amp; verified credentials</span>
+                    </div>
+                    <div class="featured-certs-grid" id="featured-certs-container">
+                        <!-- Populated dynamically from data.js -->
+                    </div>
+                </div>
+
+                <!-- All Certifications Tier (Standard Grid, 6 Cards) -->
+                <div class="certs-tier-block standard-tier-block">
+                    <div class="certs-tier-header">
+                        <div class="tier-badge-label standard-label">
+                            <i class="fa-solid fa-layer-group"></i> All Certifications
+                        </div>
+                        <span class="tier-subtitle">Database, Python, AI foundations, data analytics &amp; cybersecurity</span>
+                    </div>
+                    <div class="certifications-grid" id="certifications-grid-container">
+                        <!-- Populated dynamically from data.js -->
+                    </div>
+                </div>
+
+                <!-- Achievements Sub-section (Small Pill-Shaped Chips) -->
+                <div class="achievements-sub-section fade-up-init">
+                    <div class="achievements-header">
+                        <div class="achievements-header-title">
+                            <i class="fa-solid fa-medal"></i>
+                            <h3>Achievements</h3>
+                        </div>
+                        <span class="achievements-subtitle">Consistency &amp; Algorithmic Milestones</span>
+                    </div>
+                    <div class="achievements-chips-row" id="achievements-badges-container">
+                        <!-- Populated dynamically from data.js -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 11. Coding Profiles Section -->
+        <section id="coding-profiles" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Competitive Programming</span>
+                    <h2 class="section-title">Coding Profiles</h2>
+                    <p class="section-desc">Active problem solving across algorithmic and competitive platforms.</p>
+                </div>
+
+                <div class="profiles-grid" id="profiles-grid-container">
+                    <!-- Populated dynamically from data.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 12. Resume Callout Banner -->
+        <section class="resume-cta-section">
+            <div class="container">
+                <div class="resume-cta-banner fade-up-init">
+                    <div class="resume-cta-text">
+                        <h2>Interested in my profile?</h2>
+                        <p>Download my resume to explore my education, technical skills, projects, and experience.</p>
+                    </div>
+                    <a href="assets/Kanimozhi_R_Resume.pdf" target="_blank" class="btn btn-primary resume-link-btn">
+                        <i class="fa-solid fa-file-pdf"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 13. Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Get In Touch</span>
+                    <h2 class="section-title">Contact Me</h2>
+                    <p class="section-desc">Have a question or interested in collaborating? Let's connect.</p>
+                </div>
+
+                <div class="contact-layout fade-up-init">
+                    <div class="contact-info-col">
+                        <h3>Let's discuss opportunities</h3>
+                        <p>
+                            I am open to internship and full-time opportunities in Data Analytics, Machine Learning, AI Engineering, and Full-Stack Development.
                         </p>
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                        <div class="contact-cards-list">
+                            <a href="mailto:kani74608@gmail.com" class="contact-card-item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <div>
+                                    <div class="item-lbl">Email</div>
+                                    <div class="item-val">kani74608@gmail.com</div>
+                                </div>
+                            </a>
+                            <a href="https://www.linkedin.com/in/kanimozhi-r-86267437b/" target="_blank" rel="noopener noreferrer" class="contact-card-item">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                                <div>
+                                    <div class="item-lbl">LinkedIn</div>
+                                    <div class="item-val">Kanimozhi R.</div>
+                                </div>
+                            </a>
+                            <a href="https://github.com/kanimozhi-Rajendran" target="_blank" rel="noopener noreferrer" class="contact-card-item">
+                                <i class="fa-brands fa-github"></i>
+                                <div>
+                                    <div class="item-lbl">GitHub</div>
+                                    <div class="item-val">kanimozhi-Rajendran</div>
+                                </div>
+                            </a>
                         </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="5" placeholder="Your Message"
-                                required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary submit-btn">
-                            <span>Send Message</span>
-                            <div class="loading-spinner"></div>
-                        </button>
-                    </form>
+                    </div>
+
+                    <div class="contact-form-col">
+                        <div id="form-status-alert" class="form-status-alert"></div>
+                        <form id="contact-form" class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/">
+                            <input type="hidden" name="form-name" value="contact">
+                            <p style="display: none;">
+                                <label>Don't fill this out: <input name="bot-field"></label>
+                            </p>
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Enter your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="name@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" class="form-control" rows="5" placeholder="Write your message here..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">
+                                <i class="fa-regular fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
+    <!-- Video Demo Modal Dialog -->
+    <div id="video-modal" class="video-modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-video-title">
+        <div class="video-modal-content">
+            <div class="video-modal-header">
+                <h4 id="modal-video-title">Project Video Demo</h4>
+                <button id="video-modal-close" class="video-modal-close" aria-label="Close modal">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="video-modal-body">
+                <video id="modal-video-player" controls preload="metadata" playsinline>
+                    Your browser does not support HTML5 video.
+                </video>
+                <img id="modal-fallback-image" class="modal-fallback-image" style="display: none;" alt="Project Preview">
+                <div id="modal-video-error" class="video-error-placeholder" style="display: none;">
+                    <i class="fa-solid fa-film"></i>
+                    <h4>Video Demo Notice</h4>
+                    <p id="modal-video-error-text">Demo video will play once the file is available in assets/videos/.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 15. Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Kanimozhi. All rights reserved.</p>
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h4>Kanimozhi R<span class="dot" style="color: var(--accent-pink);">.</span></h4>
+                    <p>AI & Data Science Student | Data Analyst | Full-Stack Developer</p>
+                </div>
+                <div class="footer-socials">
+                    <a href="https://github.com/kanimozhi-Rajendran" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/kanimozhi-r-86267437b/" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:kani74608@gmail.com" class="social-icon-link" aria-label="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright &copy; 2026 Kanimozhi R. All rights reserved.</p>
+            </div>
         </div>
     </footer>
 
+    <!-- Scripts -->
+    <script src="data.js"></script>
     <script src="script.js"></script>
 </body>
 

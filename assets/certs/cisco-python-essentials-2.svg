@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ciscoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04182b" />
+      <stop offset="50%" stop-color="#0a2540" />
+      <stop offset="100%" stop-color="#001524" />
+    </linearGradient>
+    <radialGradient id="ciscoGlow" cx="80%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="rgba(4, 159, 217, 0.25)" />
+      <stop offset="100%" stop-color="transparent" />
+    </radialGradient>
+    <linearGradient id="ciscoGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#049fd9" />
+      <stop offset="100%" stop-color="#00bceb" />
+    </linearGradient>
+    <linearGradient id="pyBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3776ab" />
+      <stop offset="100%" stop-color="#24517b" />
+    </linearGradient>
+    <linearGradient id="pyYellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd438" />
+      <stop offset="100%" stop-color="#f2b705" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#ciscoBg)" />
+  <circle cx="680" cy="100" r="280" fill="url(#ciscoGlow)" />
+
+  <!-- Background Grid -->
+  <g stroke="rgba(255,255,255,0.03)" stroke-width="1">
+    <line x1="0" y1="90" x2="800" y2="90" />
+    <line x1="0" y1="180" x2="800" y2="180" />
+    <line x1="0" y1="270" x2="800" y2="270" />
+    <line x1="0" y1="360" x2="800" y2="360" />
+    <line x1="160" y1="0" x2="160" y2="450" />
+    <line x1="320" y1="0" x2="320" y2="450" />
+    <line x1="480" y1="0" x2="480" y2="450" />
+    <line x1="640" y1="0" x2="640" y2="450" />
+  </g>
+
+  <!-- Outer Border Frame -->
+  <rect x="25" y="25" width="750" height="400" rx="16" fill="none" stroke="rgba(4, 159, 217, 0.3)" stroke-width="2" />
+  <rect x="35" y="35" width="730" height="380" rx="12" fill="none" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1" />
+
+  <!-- Header: Cisco Networking Academy & OpenEDG -->
+  <g transform="translate(60, 65)">
+    <rect width="255" height="36" rx="18" fill="rgba(4, 159, 217, 0.12)" stroke="rgba(4, 159, 217, 0.35)" stroke-width="1" />
+    <!-- Cisco Bridge Waves -->
+    <g transform="translate(18, 11)" stroke="#049fd9" stroke-width="2" stroke-linecap="round">
+      <line x1="0" y1="14" x2="0" y2="4" />
+      <line x1="4" y1="14" x2="4" y2="8" />
+      <line x1="8" y1="14" x2="8" y2="1" />
+      <line x1="12" y1="14" x2="12" y2="8" />
+      <line x1="16" y1="14" x2="16" y2="4" />
+    </g>
+    <text x="44" y="23" fill="#38bdf8" font-family="'Outfit', sans-serif" font-size="12" font-weight="700" letter-spacing="1">CISCO NETACAD</text>
+  </g>
+
+  <g transform="translate(530, 65)">
+    <rect width="210" height="36" rx="18" fill="rgba(255, 255, 255, 0.06)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" />
+    <text x="105" y="23" text-anchor="middle" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="12" font-weight="600">OpenEDG Python Institute</text>
+  </g>
+
+  <!-- Title & Description -->
+  <g transform="translate(60, 160)">
+    <text x="0" y="0" fill="#38bdf8" font-family="'Inter', sans-serif" font-size="13" font-weight="600" letter-spacing="1.5">COURSE COMPLETION CERTIFICATE</text>
+    <text x="0" y="44" fill="#ffffff" font-family="'Outfit', sans-serif" font-size="30" font-weight="800">Python Essentials 2</text>
+    <text x="0" y="74" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="15">Intermediate Python: OOP, Modules, Packages, Exceptions &amp; File Processing</text>
+  </g>
+
+  <!-- Format & Level Badges -->
+  <g transform="translate(60, 275)">
+    <rect width="175" height="34" rx="17" fill="rgba(4, 159, 217, 0.15)" stroke="#049fd9" stroke-width="1" />
+    <text x="87" y="22" text-anchor="middle" fill="#38bdf8" font-family="'Inter', sans-serif" font-size="12" font-weight="700">ADVANCED / PART 2</text>
+  </g>
+  <g transform="translate(250, 275)">
+    <rect width="130" height="34" rx="17" fill="rgba(255, 212, 56, 0.12)" stroke="rgba(255, 212, 56, 0.4)" stroke-width="1" />
+    <text x="65" y="22" text-anchor="middle" fill="#ffd438" font-family="'Inter', sans-serif" font-size="12" font-weight="700">PYTHON 3.x</text>
+  </g>
+
+  <g transform="translate(60, 360)">
+    <text x="0" y="0" fill="#64748b" font-family="'Inter', sans-serif" font-size="13">Verified Academic Credential • Cisco Networking Academy</text>
+  </g>
+
+  <!-- Right Visual: Python Logo Symbol -->
+  <g transform="translate(630, 265)">
+    <circle cx="0" cy="0" r="70" fill="rgba(4, 159, 217, 0.05)" stroke="rgba(4, 159, 217, 0.2)" stroke-width="1.5" />
+    <!-- Python Snake 1 (Top Blue) -->
+    <path d="M 0 -35 C -18 -35, -28 -28, -28 -14 L -28 -3 L 0 -3 L 0 4 L -32 4 C -42 4, -46 15, -46 25 C -46 36, -38 46, -26 46 L -16 46 L -16 35 L -26 35 C -32 35, -35 30, -35 25 C -35 19, -31 15, -24 15 L 0 15 C 10 15, 14 11, 14 0 L 14 -14 C 14 -25, 6 -35, 0 -35 Z" fill="url(#pyBlue)" transform="scale(0.85) translate(18, -12)" />
+    <!-- Python Snake 2 (Bottom Yellow) -->
+    <path d="M 0 35 C 18 35, 28 28, 28 14 L 28 3 L 0 3 L 0 -4 L 32 -4 C 42 -4, 46 -15, 46 -25 C 46 -36, 38 -46, 26 -46 L 16 -46 L 16 -35 L 26 -35 C 32 -35, 35 -30, 35 -25 C 35 -19, 31 -15, 24 -15 L 0 -15 C -10 -15, -14 -11, -14 0 L -14 14 C -14 25, -6 35, 0 35 Z" fill="url(#pyYellow)" transform="scale(0.85) translate(-18, 12)" />
+    <circle cx="-10" cy="-35" r="3" fill="#ffffff" />
+    <circle cx="10" cy="35" r="3" fill="#ffffff" />
+  </g>
+</svg>

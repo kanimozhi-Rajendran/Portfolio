@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="daBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#021c24" />
+      <stop offset="50%" stop-color="#06323d" />
+      <stop offset="100%" stop-color="#031a20" />
+    </linearGradient>
+    <radialGradient id="daGlow" cx="80%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="rgba(20, 184, 166, 0.28)" />
+      <stop offset="100%" stop-color="transparent" />
+    </radialGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#14b8a6" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#daBg)" />
+  <circle cx="680" cy="100" r="280" fill="url(#daGlow)" />
+
+  <!-- Background Grid -->
+  <g stroke="rgba(255,255,255,0.03)" stroke-width="1">
+    <line x1="0" y1="90" x2="800" y2="90" />
+    <line x1="0" y1="180" x2="800" y2="180" />
+    <line x1="0" y1="270" x2="800" y2="270" />
+    <line x1="0" y1="360" x2="800" y2="360" />
+    <line x1="160" y1="0" x2="160" y2="450" />
+    <line x1="320" y1="0" x2="320" y2="450" />
+    <line x1="480" y1="0" x2="480" y2="450" />
+    <line x1="640" y1="0" x2="640" y2="450" />
+  </g>
+
+  <!-- Borders -->
+  <rect x="25" y="25" width="750" height="400" rx="16" fill="none" stroke="rgba(20, 184, 166, 0.35)" stroke-width="2" />
+  <rect x="35" y="35" width="730" height="380" rx="12" fill="none" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1" />
+
+  <!-- Header -->
+  <g transform="translate(60, 65)">
+    <rect width="255" height="36" rx="18" fill="rgba(20, 184, 166, 0.12)" stroke="rgba(20, 184, 166, 0.35)" stroke-width="1" />
+    <g transform="translate(18, 11)" stroke="#14b8a6" stroke-width="2" stroke-linecap="round">
+      <line x1="0" y1="14" x2="0" y2="4" />
+      <line x1="4" y1="14" x2="4" y2="8" />
+      <line x1="8" y1="14" x2="8" y2="1" />
+      <line x1="12" y1="14" x2="12" y2="8" />
+      <line x1="16" y1="14" x2="16" y2="4" />
+    </g>
+    <text x="44" y="23" fill="#2dd4bf" font-family="'Outfit', sans-serif" font-size="12" font-weight="700" letter-spacing="1">CISCO NETACAD</text>
+  </g>
+
+  <g transform="translate(560, 65)">
+    <rect width="180" height="36" rx="18" fill="rgba(255, 255, 255, 0.06)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" />
+    <text x="90" y="23" text-anchor="middle" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="12" font-weight="600">DATA &amp; AI TRACK</text>
+  </g>
+
+  <!-- Title -->
+  <g transform="translate(60, 160)">
+    <text x="0" y="0" fill="#2dd4bf" font-family="'Inter', sans-serif" font-size="13" font-weight="600" letter-spacing="1.5">COURSE COMPLETION CERTIFICATE</text>
+    <text x="0" y="44" fill="#ffffff" font-family="'Outfit', sans-serif" font-size="30" font-weight="800">Data Analytics Essentials</text>
+    <text x="0" y="74" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="15">Data Transformation, Exploratory Analysis, Visualization &amp; Insights</text>
+  </g>
+
+  <!-- Badges -->
+  <g transform="translate(60, 275)">
+    <rect width="210" height="34" rx="17" fill="rgba(20, 184, 166, 0.15)" stroke="#14b8a6" stroke-width="1" />
+    <text x="105" y="22" text-anchor="middle" fill="#5eead4" font-family="'Inter', sans-serif" font-size="12" font-weight="700">BUSINESS INTELLIGENCE</text>
+  </g>
+
+  <g transform="translate(60, 360)">
+    <text x="0" y="0" fill="#64748b" font-family="'Inter', sans-serif" font-size="13">Verified Academic Credential • Cisco Networking Academy</text>
+  </g>
+
+  <!-- Right Visual: Data Analytics Chart Graphic -->
+  <g transform="translate(630, 260)">
+    <circle cx="0" cy="0" r="70" fill="rgba(20, 184, 166, 0.06)" stroke="rgba(20, 184, 166, 0.25)" stroke-width="1.5" />
+    <!-- Bar Chart -->
+    <rect x="-36" y="8" width="14" height="28" rx="3" fill="#0f766e" />
+    <rect x="-16" y="-8" width="14" height="44" rx="3" fill="#0d9488" />
+    <rect x="4" y="-24" width="14" height="60" rx="3" fill="#14b8a6" />
+    <rect x="24" y="-40" width="14" height="76" rx="3" fill="#2dd4bf" />
+    <!-- Trend Line -->
+    <path d="M -30 6 L -9 -10 L 11 -26 L 31 -42" fill="none" stroke="#fef08a" stroke-width="2.5" stroke-linecap="round" />
+    <circle cx="31" cy="-42" r="4" fill="#fde047" />
+  </g>
+</svg>

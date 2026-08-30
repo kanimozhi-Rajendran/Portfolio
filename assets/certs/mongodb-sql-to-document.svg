@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#001e2b" />
+      <stop offset="50%" stop-color="#0d2b38" />
+      <stop offset="100%" stop-color="#00684a" />
+    </linearGradient>
+    <radialGradient id="glow3" cx="80%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="rgba(0, 237, 100, 0.2)" />
+      <stop offset="100%" stop-color="transparent" />
+    </radialGradient>
+    <linearGradient id="leafGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00ED64" />
+      <stop offset="100%" stop-color="#00684A" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bgGrad3)" />
+  <circle cx="670" cy="110" r="270" fill="url(#glow3)" />
+
+  <!-- Subtle Grid Pattern -->
+  <g stroke="rgba(255,255,255,0.04)" stroke-width="1">
+    <line x1="0" y1="90" x2="800" y2="90" />
+    <line x1="0" y1="180" x2="800" y2="180" />
+    <line x1="0" y1="270" x2="800" y2="270" />
+    <line x1="0" y1="360" x2="800" y2="360" />
+    <line x1="160" y1="0" x2="160" y2="450" />
+    <line x1="320" y1="0" x2="320" y2="450" />
+    <line x1="480" y1="0" x2="480" y2="450" />
+    <line x1="640" y1="0" x2="640" y2="450" />
+  </g>
+
+  <!-- Outer Border Frame -->
+  <rect x="25" y="25" width="750" height="400" rx="16" fill="none" stroke="rgba(0, 237, 100, 0.3)" stroke-width="2" />
+  <rect x="35" y="35" width="730" height="380" rx="12" fill="none" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1" />
+
+  <!-- Header Badge -->
+  <g transform="translate(60, 65)">
+    <rect width="170" height="34" rx="17" fill="rgba(0, 237, 100, 0.15)" stroke="rgba(0, 237, 100, 0.4)" stroke-width="1" />
+    <path d="M 22 25 C 22 25, 20 17, 26 10 C 27 8, 28 8, 29 10 C 35 17, 33 25, 33 25 C 33 25, 30 26, 27.5 24.5 Z" fill="url(#leafGrad3)" />
+    <path d="M 27.5 24.5 L 27.5 28.5" stroke="#00ED64" stroke-width="1.5" />
+    <text x="44" y="22" fill="#00ED64" font-family="'Outfit', 'Inter', sans-serif" font-size="12" font-weight="700" letter-spacing="1">MONGODB</text>
+  </g>
+
+  <!-- Skill Badge Pill -->
+  <g transform="translate(600, 65)">
+    <rect width="140" height="34" rx="17" fill="rgba(255, 255, 255, 0.08)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" />
+    <text x="70" y="22" text-anchor="middle" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="12" font-weight="600" letter-spacing="0.5">SKILL BADGE</text>
+  </g>
+
+  <!-- Center Decorative SQL to Document Graphic -->
+  <g transform="translate(600, 250)">
+    <circle cx="0" cy="0" r="75" fill="rgba(0, 237, 100, 0.06)" stroke="rgba(0, 237, 100, 0.25)" stroke-width="1.5" />
+    <circle cx="0" cy="0" r="52" fill="rgba(13, 43, 56, 0.6)" stroke="rgba(0, 237, 100, 0.4)" stroke-width="1" />
+    <!-- SQL Table to JSON Symbol -->
+    <rect x="-30" y="-18" width="24" height="36" rx="4" fill="none" stroke="#94a3b8" stroke-width="2" />
+    <line x1="-30" y1="-6" x2="-6" y2="-6" stroke="#94a3b8" stroke-width="1.5" />
+    <line x1="-30" y1="6" x2="-6" y2="6" stroke="#94a3b8" stroke-width="1.5" />
+    <!-- Arrow -->
+    <path d="M -2 0 L 8 0 M 4 -4 L 8 0 L 4 4" stroke="#00ED64" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Document Symbol -->
+    <rect x="12" y="-18" width="24" height="36" rx="4" fill="none" stroke="#00ED64" stroke-width="2" />
+    <text x="18" y="5" fill="#00ED64" font-family="monospace" font-size="14" font-weight="700">{ }</text>
+  </g>
+
+  <!-- Title & Description -->
+  <text x="60" y="175" fill="#ffffff" font-family="'Outfit', 'Inter', sans-serif" font-size="28" font-weight="700" letter-spacing="-0.5">
+    From Relational Model (SQL)
+  </text>
+  <text x="60" y="215" fill="#00ED64" font-family="'Outfit', 'Inter', sans-serif" font-size="28" font-weight="700" letter-spacing="-0.5">
+    to MongoDB's Document Model
+  </text>
+
+  <text x="60" y="270" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="15" font-weight="400">
+    Schema Modernization • Normalization vs Embedding • Flexible JSON BSON
+  </text>
+
+  <!-- Bottom Verification Bar -->
+  <line x1="60" y1="330" x2="740" y2="330" stroke="rgba(255,255,255,0.08)" />
+  <text x="60" y="370" fill="#64748b" font-family="'Inter', sans-serif" font-size="13">
+    ISSUING ORGANIZATION: <tspan fill="#e2e8f0" font-weight="600">MongoDB</tspan>
+  </text>
+  <text x="60" y="392" fill="#64748b" font-family="'Inter', sans-serif" font-size="12">
+    Official Skill Badge Verification
+  </text>
+</svg>

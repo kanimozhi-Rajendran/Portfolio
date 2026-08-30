@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ibmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020d1a" />
+      <stop offset="50%" stop-color="#051e3c" />
+      <stop offset="100%" stop-color="#020d1a" />
+    </linearGradient>
+    <radialGradient id="ibmGlow" cx="80%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="rgba(15, 98, 254, 0.3)" />
+      <stop offset="100%" stop-color="transparent" />
+    </radialGradient>
+    <linearGradient id="ibmBlueGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f62fe" />
+      <stop offset="100%" stop-color="#78a9ff" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#ibmBg)" />
+  <circle cx="680" cy="100" r="280" fill="url(#ibmGlow)" />
+
+  <!-- Grid -->
+  <g stroke="rgba(255,255,255,0.03)" stroke-width="1">
+    <line x1="0" y1="90" x2="800" y2="90" />
+    <line x1="0" y1="180" x2="800" y2="180" />
+    <line x1="0" y1="270" x2="800" y2="270" />
+    <line x1="0" y1="360" x2="800" y2="360" />
+    <line x1="160" y1="0" x2="160" y2="450" />
+    <line x1="320" y1="0" x2="320" y2="450" />
+    <line x1="480" y1="0" x2="480" y2="450" />
+    <line x1="640" y1="0" x2="640" y2="450" />
+  </g>
+
+  <!-- Borders -->
+  <rect x="25" y="25" width="750" height="400" rx="16" fill="none" stroke="rgba(15, 98, 254, 0.35)" stroke-width="2" />
+  <rect x="35" y="35" width="730" height="380" rx="12" fill="none" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1" />
+
+  <!-- Header: IBM SkillsBuild -->
+  <g transform="translate(60, 65)">
+    <rect width="210" height="36" rx="18" fill="rgba(15, 98, 254, 0.15)" stroke="rgba(15, 98, 254, 0.4)" stroke-width="1" />
+    <!-- IBM Striped Logo Motif -->
+    <g transform="translate(18, 11)">
+      <rect x="0" y="0" width="30" height="3" fill="#4589ff" />
+      <rect x="0" y="5" width="30" height="3" fill="#4589ff" />
+      <rect x="0" y="10" width="30" height="3" fill="#4589ff" />
+    </g>
+    <text x="56" y="23" fill="#78a9ff" font-family="'Outfit', sans-serif" font-size="12" font-weight="700" letter-spacing="1">IBM SKILLSBUILD</text>
+  </g>
+
+  <g transform="translate(570, 65)">
+    <rect width="170" height="36" rx="18" fill="rgba(255, 255, 255, 0.06)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" />
+    <text x="85" y="23" text-anchor="middle" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="12" font-weight="600">CREDENTIAL</text>
+  </g>
+
+  <!-- Title & Description -->
+  <g transform="translate(60, 155)">
+    <text x="0" y="0" fill="#78a9ff" font-family="'Inter', sans-serif" font-size="13" font-weight="600" letter-spacing="1.5">AI PROFESSIONAL LEARNING</text>
+    <text x="0" y="38" fill="#ffffff" font-family="'Outfit', sans-serif" font-size="26" font-weight="800">AI Fundamentals:</text>
+    <text x="0" y="72" fill="#d0e2ff" font-family="'Outfit', sans-serif" font-size="24" font-weight="700">Language and Vision in AI</text>
+    <text x="0" y="104" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="14">NLP, Computer Vision, Neural Processing &amp; Perceptual AI Architectures</text>
+  </g>
+
+  <!-- Badge Pill -->
+  <g transform="translate(60, 290)">
+    <rect width="250" height="36" rx="18" fill="rgba(15, 98, 254, 0.18)" stroke="#0f62fe" stroke-width="1.2" />
+    <text x="125" y="23" text-anchor="middle" fill="#a6c8ff" font-family="'Inter', sans-serif" font-size="12" font-weight="700">NLP &amp; COMPUTER VISION</text>
+  </g>
+
+  <g transform="translate(60, 360)">
+    <text x="0" y="0" fill="#64748b" font-family="'Inter', sans-serif" font-size="13">Verified Skill Credential • IBM SkillsBuild Global Learning</text>
+  </g>
+
+  <!-- Right Visual: Eye / Waveform Vision Symbol -->
+  <g transform="translate(630, 260)">
+    <circle cx="0" cy="0" r="70" fill="rgba(15, 98, 254, 0.08)" stroke="rgba(15, 98, 254, 0.25)" stroke-width="1.5" />
+    <!-- Stylized Eye (Vision) -->
+    <path d="M -36 0 C -20 -24, 20 -24, 36 0 C 20 24, -20 24, -36 0 Z" fill="none" stroke="url(#ibmBlueGrad)" stroke-width="2.5" />
+    <circle cx="0" cy="0" r="10" fill="#0f62fe" />
+    <circle cx="0" cy="0" r="4" fill="#ffffff" />
+    <!-- Audio / Language Pulse waves -->
+    <path d="M -16 28 L -16 34 M -8 26 L -8 36 M 0 24 L 0 38 M 8 26 L 8 36 M 16 28 L 16 34" stroke="#78a9ff" stroke-width="2" stroke-linecap="round" />
+  </g>
+</svg>

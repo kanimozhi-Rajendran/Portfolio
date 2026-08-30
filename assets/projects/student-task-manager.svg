@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#180b19" />
+      <stop offset="50%" stop-color="#241026" />
+      <stop offset="100%" stop-color="#0f0514" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)" />
+  <circle cx="650" cy="100" r="160" fill="#f43f5e" opacity="0.08"/>
+  
+  <g transform="translate(150, 70)">
+    <rect width="500" height="310" rx="16" fill="#1b0e22" stroke="rgba(244,63,94,0.3)" stroke-width="1.5"/>
+    <rect width="500" height="45" rx="16" fill="#281436"/>
+    <circle cx="25" cy="22" r="6" fill="#f43f5e"/>
+    <circle cx="45" cy="22" r="6" fill="#fb7185" opacity="0.6"/>
+    <circle cx="65" cy="22" r="6" fill="#f472b6" opacity="0.6"/>
+    <text x="250" y="28" fill="#f1f5f9" font-size="13" font-family="'Outfit', sans-serif" font-weight="600" text-anchor="middle">Student Task Manager • Academic Priorities & Milestones</text>
+    
+    <rect x="25" y="65" width="140" height="225" rx="10" fill="#14091a"/>
+    <text x="35" y="88" fill="#f43f5e" font-size="11" font-family="sans-serif" font-weight="bold">📌 To Do (4)</text>
+    <rect x="35" y="100" width="120" height="40" rx="6" fill="#24112c"/>
+    <text x="45" y="122" fill="#ffffff" font-size="10" font-family="sans-serif">ML Model Tuning</text>
+    <rect x="35" y="148" width="120" height="40" rx="6" fill="#24112c"/>
+    <text x="45" y="170" fill="#ffffff" font-size="10" font-family="sans-serif">DS Case Study</text>
+    
+    <rect x="180" y="65" width="140" height="225" rx="10" fill="#14091a"/>
+    <text x="190" y="88" fill="#f59e0b" font-size="11" font-family="sans-serif" font-weight="bold">⚡ In Progress (2)</text>
+    <rect x="190" y="100" width="120" height="40" rx="6" fill="#24112c"/>
+    <text x="200" y="122" fill="#ffffff" font-size="10" font-family="sans-serif">AI Presentation</text>
+    <rect x="190" y="148" width="120" height="40" rx="6" fill="#24112c"/>
+    <text x="200" y="170" fill="#ffffff" font-size="10" font-family="sans-serif">SQL Database Lab</text>
+    
+    <rect x="335" y="65" width="140" height="225" rx="10" fill="#14091a"/>
+    <text x="345" y="88" fill="#10b981" font-size="11" font-family="sans-serif" font-weight="bold">✓ Completed (8)</text>
+    <rect x="345" y="100" width="120" height="40" rx="6" fill="#162e24"/>
+    <text x="355" y="122" fill="#ffffff" font-size="10" font-family="sans-serif">Python Script v2</text>
+    <rect x="345" y="148" width="120" height="40" rx="6" fill="#162e24"/>
+    <text x="355" y="170" fill="#ffffff" font-size="10" font-family="sans-serif">DSA Weekly Contest</text>
+  </g>
+</svg>

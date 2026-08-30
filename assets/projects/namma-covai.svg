@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#190a18" />
+      <stop offset="50%" stop-color="#241026" />
+      <stop offset="100%" stop-color="#100512" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e" />
+      <stop offset="100%" stop-color="#e11d48" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)" />
+  <circle cx="680" cy="100" r="160" fill="#f43f5e" opacity="0.08"/>
+  <circle cx="150" cy="360" r="130" fill="#be185d" opacity="0.06"/>
+  
+  <!-- Mobile App Frames -->
+  <g transform="translate(220, 45)">
+    <!-- Main Mobile Frame -->
+    <rect width="180" height="360" rx="24" fill="#1b0e21" stroke="rgba(244,63,94,0.4)" stroke-width="2"/>
+    <rect x="55" y="10" width="70" height="14" rx="7" fill="#0d0411"/>
+    
+    <!-- App Header -->
+    <text x="90" y="45" fill="#ffffff" font-size="13" font-family="'Outfit', sans-serif" font-weight="700" text-anchor="middle">Namma Covai</text>
+    <text x="90" y="58" fill="#fda4af" font-size="9" font-family="sans-serif" text-anchor="middle">Coimbatore Tourism & Stays</text>
+    
+    <!-- Category Pills -->
+    <rect x="15" y="70" width="45" height="20" rx="10" fill="#f43f5e"/>
+    <text x="37" y="83" fill="#ffffff" font-size="8" font-family="sans-serif" font-weight="bold" text-anchor="middle">All</text>
+    
+    <rect x="65" y="70" width="48" height="20" rx="10" fill="#2c1433"/>
+    <text x="89" y="83" fill="#cbd5e1" font-size="8" font-family="sans-serif" text-anchor="middle">Places</text>
+    
+    <rect x="118" y="70" width="48" height="20" rx="10" fill="#2c1433"/>
+    <text x="142" y="83" fill="#cbd5e1" font-size="8" font-family="sans-serif" text-anchor="middle">Stays</text>
+    
+    <!-- Cards -->
+    <rect x="15" y="100" width="150" height="100" rx="12" fill="#26122d"/>
+    <rect x="15" y="100" width="150" height="55" rx="12" fill="#3c1844"/>
+    <circle cx="35" cy="128" r="12" fill="#f43f5e" opacity="0.3"/>
+    <text x="35" y="132" fill="#ffffff" font-size="12" text-anchor="middle">🏛️</text>
+    <text x="25" y="172" fill="#ffffff" font-size="10" font-family="sans-serif" font-weight="600">Marudhamalai Temple</text>
+    <text x="25" y="186" fill="#94a3b8" font-size="8" font-family="sans-serif">Scenic Hill • 4.8 ★</text>
+    
+    <rect x="15" y="210" width="150" height="100" rx="12" fill="#26122d"/>
+    <rect x="15" y="210" width="150" height="55" rx="12" fill="#38153f"/>
+    <circle cx="35" cy="238" r="12" fill="#f43f5e" opacity="0.3"/>
+    <text x="35" y="242" fill="#ffffff" font-size="12" text-anchor="middle">🌲</text>
+    <text x="25" y="282" fill="#ffffff" font-size="10" font-family="sans-serif" font-weight="600">Valparai Hills & Stays</text>
+    <text x="25" y="296" fill="#94a3b8" font-size="8" font-family="sans-serif">Nature & Tea Estates • 4.9 ★</text>
+    
+    <!-- Bottom Nav -->
+    <rect x="15" y="320" width="150" height="30" rx="10" fill="#130717"/>
+    <circle cx="45" cy="335" r="5" fill="#f43f5e"/>
+    <circle cx="90" cy="335" r="4" fill="#64748b"/>
+    <circle cx="135" cy="335" r="4" fill="#64748b"/>
+  </g>
+  
+  <!-- Secondary App Frame (Detail view) -->
+  <g transform="translate(420, 85)">
+    <rect width="160" height="310" rx="20" fill="#170c1d" stroke="rgba(244,63,94,0.2)" stroke-width="1.5"/>
+    <rect x="50" y="8" width="60" height="12" rx="6" fill="#0d0411"/>
+    
+    <rect x="15" y="35" width="130" height="85" rx="10" fill="#381640"/>
+    <text x="80" y="82" fill="#ffffff" font-size="24" text-anchor="middle">🏔️</text>
+    <text x="20" y="140" fill="#ffffff" font-size="11" font-family="sans-serif" font-weight="bold">Adiyogi & Isha Yoga</text>
+    <text x="20" y="155" fill="#f43f5e" font-size="9" font-family="sans-serif">Top Iconic Landmark</text>
+    <text x="20" y="175" fill="#94a3b8" font-size="8" font-family="sans-serif">112-ft iconic statue, cultural</text>
+    <text x="20" y="188" fill="#94a3b8" font-size="8" font-family="sans-serif">events and serene mountain view.</text>
+    
+    <rect x="20" y="210" width="120" height="28" rx="8" fill="#f43f5e"/>
+    <text x="80" y="228" fill="#ffffff" font-size="10" font-family="sans-serif" font-weight="bold" text-anchor="middle">Get Directions</text>
+  </g>
+</svg>
